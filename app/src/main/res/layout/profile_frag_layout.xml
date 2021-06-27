@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+   >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:id="@+id/profileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
+        android:padding="10dp"
+        app:civ_border_color="#EA8261"
+        app:civ_border_width="5dp"
+       >
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/profileTextView3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:fontFamily="Raleway"
+        android:text="Name"
+        android:textSize="24sp">
+
+    </TextView>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/profileTextviewId1"
+        android:layout_marginTop="8dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="Raleway"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:padding="20dp"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:src="@drawable/location"
+            android:tint="#EA8261"
+
+            />
+
+        <TextView
+            android:id="@+id/profileTextview2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="42 central road "
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:padding="20dp"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:src="@drawable/ic_baseline_history_24"
+            android:tint="#EA8261"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Order"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="16dp"
+            app:cardCornerRadius="13dp"
+            >
+
+        <TextView
+            android:fontFamily="cursive"
+            android:textColor="#EA8261"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileTextview4"
+            android:textSize="16sp"
+        >
+
+    </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update info"
+        android:background="#EA8261"
+        >
+
+    </Button>
+
+
+
+
+
+
+</LinearLayout>
+
+

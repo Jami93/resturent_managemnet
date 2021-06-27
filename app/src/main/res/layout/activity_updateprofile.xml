@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateprofile"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:id="@+id/UpdateProfileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
+        android:padding="10dp"
+        app:civ_border_color="#EA8261"
+        app:civ_border_width="5dp"
+        >
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <Button
+        android:id="@+id/updateProfilebtn"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#EA8261"
+        android:text="update profile pic"
+        android:textColor="#fff"
+        >
+
+
+    </Button>
+
+    
+    
+    <EditText
+        android:gravity="center"
+        android:id="@+id/UpdateProfileEdit1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:fontFamily="Raleway"
+       android:hint="Full name "
+        android:textSize="24sp">
+
+    </EditText>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:padding="20dp"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:src="@drawable/location"
+            android:tint="#EA8261"
+
+            />
+
+        <EditText
+            android:id="@+id/UpdateProfileEdit2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:hint="42 central road "
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/updateProfilebtn2"
+        android:text="Confirm update"
+        android:background="#EA8261"
+        >
+
+    </Button>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

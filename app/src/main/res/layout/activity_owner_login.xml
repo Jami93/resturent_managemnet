@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ownerLogin"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textColor="#EA8261"
+        android:text="Owner  page "
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="#ffff"
+        />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:id="@+id/ownerLoginImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/entrepreneur"
+
+        >
+    </ImageView>
+
+    <EditText
+        android:id="@+id/OwnerEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textviewdesign"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email id"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="#151414" />
+
+    <EditText
+        android:id="@+id/OwnerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textviewdesign"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password (At least 8 character)"
+        android:inputType="numberPassword"
+        android:padding="10dp"
+        android:textColorHint="#121111" />
+
+
+    <Button
+        android:id="@+id/oLButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="LogIn"
+        android:background="@drawable/gradientbtn"
+        android:textColor="#ffff"
+        >
+
+    </Button>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnerActivity"
+    android:orientation="vertical"
+
+    >
+    <Button
+        android:id="@+id/selectImageButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginBottom="10dp"
+        android:text="Select image"
+        android:background="#EA8261"
+        >
+
+    </Button>
+    <ProgressBar
+        android:id="@+id/ownerProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        >
+
+    </ProgressBar>
+
+    <ImageView
+        android:id="@+id/foodImageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="50dp">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/foodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/product_name">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/product_price"
+        android:textColor="#EA8261"
+        android:textColorHint="#1B1919"
+        android:id="@+id/foodPrice"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/uploadImageButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginBottom="10dp"
+        android:text="upload image"
+        android:background="#EA8261"
+        >
+
+    </Button>
+    <Button
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/showOrderdetails"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Show order details"
+        android:background="#EA8261"
+        >
+
+    </Button>
+
+</LinearLayout>

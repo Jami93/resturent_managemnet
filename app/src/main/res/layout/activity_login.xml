@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/icon"
+                    app:tint="@color/endcolorgradient" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="MUSIC CAFE"
+                    android:textColor="@color/endcolorgradient"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/signInEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/textviewdesign"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Email id"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:textColorHint="#151414" />
+
+                <EditText
+                    android:id="@+id/signInNumberPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/textviewdesign"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Password (At least 8 character)"
+                    android:inputType="numberPassword"
+                    android:padding="10dp"
+                    android:textColorHint="#121111" />
+
+                <TextView
+                    android:id="@+id/LforgetPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Forget password?"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/signINButton"
+                    android:enabled="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/gradientbtn"
+                    android:text="Sign in"
+                    android:textAllCaps="true"
+                    android:textColor="#50FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="50dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/startcolorgradient" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FAFFFFFF"
+                        android:text="or with"
+                        android:textAllCaps="true"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="50dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/startcolorgradient" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/googledesign"
+                        android:drawableLeft="@drawable/google"
+                        android:padding="10dp"
+                        android:text="google" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/wantToCreateAnAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center"
+                    android:text="Want to create an account?"
+                    android:textColorHint="#201F1F"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+            </LinearLayout>

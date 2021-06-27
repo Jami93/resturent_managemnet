@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748703442288",
+    "project_id": "resturent-management",
+    "storage_bucket": "resturent-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748703442288:android:c9e215f4327abdc5089bb5",
+        "android_client_info": {
+          "package_name": "com.example.musiccafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748703442288-5a1b2ahne2utd6ndjclfsgm50m01a3t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeljHILDpKiRgJTmm5IXBiFowPDeHVhxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748703442288-5a1b2ahne2utd6ndjclfsgm50m01a3t7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
